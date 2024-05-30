@@ -1,5 +1,5 @@
-###Expense Tracker
-Expense Tracker application to create an expense tracking system with robust data visualization capabilities.
+
+Expense Tracker is an application to create an expense tracking system with robust data visualization capabilities.
 We developed an Expense model to manage expense details and implemented CRUD functionalities to enable users to record, view, and modify their expenses seamlessly.
 
 Additionally, I integrated data processing and visualization features to provide users with insights into their spending habits, including category-wise expenditure and trends over different time periods.
