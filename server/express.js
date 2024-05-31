@@ -15,6 +15,7 @@ import ReactDOMServer from 'react-dom/server'
 import { StaticRouter } from 'react-router-dom'
 import { ServerStyleSheets, ThemeProvider } from '@material-ui/styles'
 import theme from './../client/theme'
+import expenseRoutes from './routes/expense.route'
 
 
 
@@ -37,6 +38,7 @@ app.use('/dist', express.static(path.join(CURRENT_WORKING_DIR, 'dist')))
 
 app.use('/', userRoutes)
 app.use('/', authRoutes)
+app.use('/', expenseRoutes)
 
 app.get('*', (req, res) => {
   const sheets = new ServerStyleSheets()
